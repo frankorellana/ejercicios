@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class example001 {
-
+	//Frank was here
 	public static void main(String[] args) {
 		BufferedReader in; 
 		in=new BufferedReader(
@@ -15,7 +15,7 @@ public class example001 {
 		try {
 			a = Integer.parseInt(in.readLine());
 		} catch (NumberFormatException | IOException e) {
-			System.out.println("Por favor verifique el número ingresado!");
+			System.out.println("Por favor verifique el nÃºmero ingresado!");
 			return;
 //			e.printStackTrace();
 		} 
